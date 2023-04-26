@@ -2,7 +2,7 @@ version: "3"
 services:
   smart-contract-verifier:
     ## you can build an image locally, or use pre-built images from registry
-#    image: ghcr.io/blockscout/smart-contract-verifier:main
+    image: registry.digitalocean.com/zera-scan-rs/zera-scan-rs:latest
     build:
       context: ..
       dockerfile: smart-contract-verifier-server/Dockerfile
